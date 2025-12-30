@@ -145,6 +145,8 @@ gap: 40px;
     display: block;
     margin: 0 auto;
     margin-top: 48px;
+    border-radius: 4px;
+    border: none;
 }
 
 .main-button:hover,
@@ -168,9 +170,6 @@ background: #404bbf;
 .features-list {
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    
 }
 
 .features-item {
@@ -188,6 +187,7 @@ background: #404bbf;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features-text {
@@ -198,8 +198,13 @@ background: #404bbf;
 }
 
 .section-title-team {
-    text-align: center;
     margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .team-section {
@@ -253,10 +258,17 @@ background: #404bbf;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .section-title {
     margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .portfolio-list {
@@ -305,10 +317,11 @@ background: #404bbf;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    display: flex;
 }
 
 .footer-logo .footer-logo-part {
     color: #4d5ae5;
-    margin-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
 }
