@@ -2,9 +2,11 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
+    margin: 0;
 }
 
-ul, ol {
+ul,
+ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,12 +22,18 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
     padding: 0;
 }
 
-/* commmon */
+/* common */
 
 .container {
     max-width: 1158px;
@@ -37,7 +45,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
-    display: flex;
 }
 
 .header-container {
@@ -48,6 +55,8 @@ h1, h2, h3, h4, h5, h6, p {
 .header-nav {
     display: flex;
     align-items: center;
+    width: 100%;
+    gap: 40px;
 }
 
 .logo {
@@ -60,7 +69,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: #2e2f42;
     padding: 24px 0;
     margin-right: 76px;
-
 }
 
 .logo .logo-part {
@@ -68,11 +76,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .nav-list {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -82,6 +85,10 @@ h1, h2, h3, h4, h5, h6, p {
     color: #2e2f42;
     padding: 24px 0;
     display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
 }
 
 .nav-link:hover,
@@ -90,15 +97,16 @@ h1, h2, h3, h4, h5, h6, p {
 .address-link:focus {
     color: #404bbf;
 }
- 
-.address-list {
-display: flex;
-gap: 40px;
-}
 
 .address {
-    font-style: normal;
     margin-left: auto;
+    font-style: normal;
+}
+
+.address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .address-link {
@@ -106,7 +114,7 @@ gap: 40px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    display: inline-block;
+    display: block;
     padding: 24px 0;
 }
 
@@ -174,7 +182,6 @@ background: #404bbf;
 
 .features-item {
     width: calc((100% - 72px) / 4);
-    margin-bottom: 8px;
 }
 
 .main-section-features {
@@ -245,7 +252,6 @@ background: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 32px;
 }
  
 .portfolio-section {
@@ -305,7 +311,6 @@ background: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-bottom: 100px;
     max-width: 264px;
 }
 
@@ -318,10 +323,10 @@ background: #404bbf;
     text-transform: uppercase;
     color: #f4f4fd;
     display: flex;
+    margin-bottom: 16px;
 }
 
 .footer-logo .footer-logo-part {
     color: #4d5ae5;
     display: inline-block;
-    margin-bottom: 16px;
 }
